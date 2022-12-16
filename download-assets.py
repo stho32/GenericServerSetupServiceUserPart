@@ -19,7 +19,7 @@ response = requests.get(f'{api_url}/releases/latest')
 release_info = response.json()
 
 # Create a subdirectory for the attachments
-attachment_dir = repository_name
+attachment_dir = f'../{repository_name}'
 if os.path.exists(attachment_dir):
     # Remove the existing directory if it exists
     shutil.rmtree(attachment_dir)

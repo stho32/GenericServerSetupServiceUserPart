@@ -13,3 +13,7 @@ Instead of naming the local folder attachments, could you name him like the repo
 ```
 After the zip file are extracted can you delete them so they do not clutter up the directory?
 ```
+
+```
+Could you change the script so that the attachment directory is placed one directory level up? The name can stay the same.
+```
